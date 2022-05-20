@@ -10,3 +10,12 @@ financial_data = pd.read_csv('financial_data.csv')
 
 #Task 1
 print(financial_data.head())
+
+#Task 2
+month = financial_data["Month"]
+revenue = financial_data["Revenue"]
+expenses = financial_data["Expenses"]
+
+#Task 3
+plt.plot(month, revenue)
+plt.show()
