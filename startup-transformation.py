@@ -7,3 +7,6 @@ import numpy as np
 
 # load in financial data
 financial_data = pd.read_csv('financial_data.csv')
+
+#Task 1
+print(financial_data.head())
