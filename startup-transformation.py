@@ -39,3 +39,8 @@ plt.clf()
 #Task 6
 expense_overview = pd.read_csv('expenses.csv')
 print(expense_overview.head())
+
+#Task 7
+expense_categories = expense_overview['Expense']
+proportions = expense_overview['Proportion']
+
