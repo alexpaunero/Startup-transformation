@@ -44,3 +44,8 @@ print(expense_overview.head())
 expense_categories = expense_overview['Expense']
 proportions = expense_overview['Proportion']
 
+#Task 8
+plt.clf()
+plt.pie(proportions, labels = expense_categories)
+plt.title('Expenses')
+plt.show()
