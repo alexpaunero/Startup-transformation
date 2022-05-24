@@ -48,4 +48,8 @@ proportions = expense_overview['Proportion']
 plt.clf()
 plt.pie(proportions, labels = expense_categories)
 plt.title('Expenses')
+
+#Task 9
+plt.axis('Equal')
+plt.tight_layout()
 plt.show()
