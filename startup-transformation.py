@@ -53,3 +53,14 @@ plt.title('Expenses')
 plt.axis('Equal')
 plt.tight_layout()
 plt.show()
+
+#Task 10
+expense_categories = ['Salaries', 'Advertising', 'Office Rent', 'Other']
+proportions = [0.62, 0.15, 0.15, 0.08]
+plt.clf()
+plt.pie(proportions, labels = expense_categories)
+plt.title('Expenses')
+plt.axis('Equal')
+plt.tight_layout()
+plt.show()
+
