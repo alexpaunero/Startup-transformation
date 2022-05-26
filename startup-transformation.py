@@ -64,3 +64,9 @@ plt.axis('Equal')
 plt.tight_layout()
 plt.show()
 
+## Task 11
+expense_cut = 'Salaries'
+
+## Task 12
+employees = pd.read_csv('employees.csv')
+print(employees.head())
