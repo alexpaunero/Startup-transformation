@@ -70,3 +70,7 @@ expense_cut = 'Salaries'
 ## Task 12
 employees = pd.read_csv('employees.csv')
 print(employees.head())
+
+## Task 13
+sorted_productivity = employees.sort_values(by=['Productivity'])
+print(sorted_productivity)
