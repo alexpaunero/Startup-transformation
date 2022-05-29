@@ -74,3 +74,7 @@ print(employees.head())
 ## Task 13
 sorted_productivity = employees.sort_values(by=['Productivity'])
 print(sorted_productivity)
+
+## Task 14
+employees_cut = sorted_productivity.head(100)
+print(employees_cut)
