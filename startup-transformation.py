@@ -78,3 +78,7 @@ print(sorted_productivity)
 ## Task 14
 employees_cut = sorted_productivity.head(100)
 print(employees_cut)
+
+
+## Task 15
+transformation = 'standardization'
