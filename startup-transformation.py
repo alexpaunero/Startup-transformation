@@ -82,3 +82,9 @@ print(employees_cut)
 
 ## Task 15
 transformation = 'standardization'
+
+## Task 16
+commute_times = employees['Commute Time']
+
+## Task 17
+print(commute_times.describe())
