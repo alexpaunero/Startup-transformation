@@ -88,3 +88,11 @@ commute_times = employees['Commute Time']
 
 ## Task 17
 print(commute_times.describe())
+
+## Task 18
+plt.clf()
+plt.hist(commute_times)
+plt.title("Time spent commuting")
+plt.xlabel("Time")
+plt.ylabel("Frequency")
+plt.show()
