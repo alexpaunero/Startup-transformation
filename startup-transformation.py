@@ -96,3 +96,5 @@ plt.title("Time spent commuting")
 plt.xlabel("Time")
 plt.ylabel("Frequency")
 plt.show()
+## The data is right-skewed.
+
