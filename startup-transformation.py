@@ -98,3 +98,5 @@ plt.ylabel("Frequency")
 plt.show()
 ## The data is right-skewed.
 
+## Task 19
+commute_times_log = np.log(commute_times)
