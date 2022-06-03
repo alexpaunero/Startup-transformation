@@ -100,3 +100,11 @@ plt.show()
 
 ## Task 19
 commute_times_log = np.log(commute_times)
+
+## Task 20
+plt.clf()
+plt.hist(commute_times_log)
+plt.title("Time spent commuting (log)")
+plt.xlabel("Time")
+plt.ylabel("Frequency")
+plt.show()
